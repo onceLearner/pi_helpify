@@ -1,3 +1,4 @@
+let a = 0;
 
 const url = {
     local: "http://localhost:8081",
