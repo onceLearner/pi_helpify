@@ -13,13 +13,11 @@ const Comment = () => {
 
     return (
         <div className="w-full py-10 mb-10 px-6 mt-10">
-            <h1 className="text-5xl text-hamid text-center " style={{ fontWeight: "600" }}>
+            <h1 className="text-5xl text-hamid text-center  py-10" style={{ fontWeight: "600" }}>
                 Comment ca marche?
             </h1>
 
            
-
-
             <div className="flex flex-wrap  md:space-x-12  w-full md:space-y-0 space-y-20    px-2 justify-center">
 
                 <div className="flex flex-col relative transform  items-center  cursor-pointer" onMouseEnter={() => setHover1(true)} onMouseLeave={() => setHover1(false)} >

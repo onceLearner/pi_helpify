@@ -163,6 +163,7 @@ const ModalAjouter = ({ openModalHook, setListDemandes, listDemandes, userInfo, 
                                     showTimeSelect
                                     showTimeInput
                                     dateFormat="MMMM d, yyyy h:mm aa"
+                                    minDate={new Date()}
 
                                     selected={startDate}
                                     onChange={date => { setStartDate(date); setChoosedData({ ...choosedData, date: date }) }}
