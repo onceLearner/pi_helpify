@@ -242,7 +242,7 @@ const ModalAjouter = ({ openModalHook, setListOffres, listOffres, userInfo, setR
                              <Select
                                     className="w-40"
 
-                                    options={dataDays}
+                                    options={dataDays.filter(itemm => itemm.value >= choosedData.daysFrame.end.value)}
                                     value={choosedData.daysFrame.end}
                                     onChange={selected => setChoosedData({ ...choosedData, daysFrame: { ...choosedData.daysFrame, end: selected } })}
 
