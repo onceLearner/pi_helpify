@@ -80,10 +80,7 @@ const Comment = () => {
             </div>
             
 
-            <div>
-                <h1>  On va se charger pour trouver parmi nous Helpers, ceux qui  satisfaire votre demande</h1>
-            </div>
-
+            
 
 
 

@@ -24,7 +24,7 @@ const Community = () => {
 
                 <div className="flex  flex-col items-center space-y-5 md:w-60 p-2 w-full " >
                     <img src={Img2} alt="img" className="rounded-full w-40 h-40 object-cover" />
-                    <h2 className="text-xl text-hamid "> Abdellah</h2>
+                    <h2 className="text-xl text-hamid "> karim</h2>
 
                     <p>
                         "
@@ -36,7 +36,7 @@ const Community = () => {
 
                 <div className="flex  flex-col items-center space-y-5 md:w-60 p-2 w-full">
                     <img src={Img3} alt="img" className="rounded-full w-40 h-40 object-cover " />
-                    <h2 className="text-xl text-hamid"> Abdellah</h2>
+                    <h2 className="text-xl text-hamid"> Said</h2>
 
                     <p>
                         "
@@ -48,7 +48,7 @@ const Community = () => {
 
                 <div className="flex  flex-col items-center space-y-5 md:w-60 p-2 w-full " >
                     <img src={Img2} className="rounded-full w-40 h-40 object-cover" />
-                    <h2 className="text-xl text-hamid"> Abdellah</h2>
+                    <h2 className="text-xl text-hamid"> Youssef</h2>
 
                     <p>
                         "
